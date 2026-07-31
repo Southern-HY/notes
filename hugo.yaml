@@ -63,21 +63,17 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: 分类
-      url: /categories/
+    - identifier: home
+      name: 主页
+      url: /
+      weight: 10
+    - identifier: tags
+      name: 标签
+      url: /tags/
       weight: 10
     - identifier: archives
       name: 归档
       url: /archives/
-      weight: 10
-    - identifier: paintings
-      name: 画
-      url: https://souther-hy.github.io/paintings/
-      weight: 10
-    - identifier: dreams
-      name: 梦
-      url: https://souther-hy.github.io/dreams/
       weight: 10
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

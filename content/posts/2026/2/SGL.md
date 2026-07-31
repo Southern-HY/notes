@@ -1,6 +1,7 @@
 ---
 date: '2026-04-04T00:00:00+08:00'
 title: 'SGLang实验安装'
+tags: ['IT笔记']
 ---
 
 尝试过在wsl中安装vLLM失败后，便转向安装SGlang。
