@@ -1,4 +1,4 @@
-baseURL: https://southern-hy.github.io/notes/
+baseURL: https://southern-hy.github.io/
 locale: zh
 title: HY's Notes
 theme: ["PaperMod"]
@@ -39,6 +39,12 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon.ico"
+    favicon32x32: "/favicon.ico"
+    apple_touch_icon: "/hysmall.png"
 
   # home-info mode
   homeInfoParams:
