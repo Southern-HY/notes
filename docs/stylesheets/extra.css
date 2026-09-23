@@ -1,0 +1,30 @@
+:root > * {
+  /* background color */
+  --md-default-bg-color: #FDFDF7;
+
+  /* title color */
+  --md-default-fg-color: #171717;
+
+  /* text color */
+  --md-typeset-color: #3e3e3e;
+
+  /* link color */
+  --md-primary-fg-color: #3e3e3e;
+  
+  /* left link text color */
+  --md-accent-fg-color: #171717;
+
+  /* left link bg color */
+  --md-accent-fg-color--transparent: #E4E4DF;
+
+  /* header and footer addition */
+  --md-default-bg-color--light: #00000000;
+}
+
+.md-content a {
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, .md-header .md-ellipsis {
+  font-family: serif;
+}
