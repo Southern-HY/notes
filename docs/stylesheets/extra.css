@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+
+/* serif font for headers */
+
+h1, h2, h3, h4, h5, h6, .md-header .md-ellipsis {
+  font-family: "Noto Serif SC", serif;
+}
+
+/* color palette */
+
 :root > * {
   /* background color */
   --md-default-bg-color: #FDFDF7;
@@ -10,21 +20,37 @@
 
   /* link color */
   --md-primary-fg-color: #3e3e3e;
+  --md-typeset-a-color: #3e3e3e;
   
   /* left link text color */
   --md-accent-fg-color: #171717;
 
   /* left link bg color */
-  --md-accent-fg-color--transparent: #E4E4DF;
+  --md-accent-fg-color--transparent: #00000018;
 
   /* header and footer addition */
   --md-default-bg-color--light: #00000000;
+
+  /* code block background & highlight */
+  --md-code-bg-color: #FFFFFF;
+  --md-code-hl-color: #a5a5a5;
+  --md-code-hl-color--light: #edede9;
 }
+
+/* bold link in content */
 
 .md-content a {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-h1, h2, h3, h4, h5, h6, .md-header .md-ellipsis {
-  font-family: serif;
+/* darker div line */
+
+hr {
+  border-bottom-color: #a5a5a5 !important;
+}
+
+/* code block border */
+
+.md-code__content {
+  border: 1px solid #dcdcdc;
 }
