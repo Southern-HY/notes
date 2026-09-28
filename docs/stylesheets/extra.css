@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6, .md-header .md-ellipsis {
   --md-default-bg-color--light: #00000000;
 
   /* code block background & highlight */
-  --md-code-bg-color: #FFFFFF;
+  --md-code-bg-color: #00000000;
   --md-code-hl-color: #a5a5a5;
   --md-code-hl-color--light: #edede9;
 }
@@ -52,5 +52,6 @@ hr {
 /* code block border */
 
 .md-code__content {
-  border: 1px solid #dcdcdc;
+  border: 1px solid #36464E;
+  line-height: 1.25;
 }
