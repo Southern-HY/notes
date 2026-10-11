@@ -21,4 +21,4 @@ Since 2024
 
 ---
 
-这个网站上的像素字是用 [ASCII Art 生成器 ✨ 免费在线文字转ASCII艺术 | 一键复制粘贴 - SymbolDb](https://symboldb.org/zh/text-to-ascll/) 制作的。
+这个网站上的像素字标题都是用 [这个工具](https://symboldb.org/zh/text-to-ascll/) 制作的。

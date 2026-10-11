@@ -59,7 +59,7 @@ logo = "assets/logo.png"
 
 [project.theme.font]
 # text = "Inter"
-code = "Fira Code"
+code = "Jetbrains Mono"
 
 # [[project.theme.palette]]
 # media = "(prefers-color-scheme)"
