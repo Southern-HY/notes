@@ -52,6 +52,7 @@ hr {
 /* code block border */
 
 .md-code__content {
-  border: 1px solid #36464E;
+  /* border: 1px solid #36464E; */
   line-height: 1.4;
 }
+
